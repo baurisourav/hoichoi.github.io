@@ -1,38 +1,345 @@
-.App {
-  text-align: center;
+
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+    color: aliceblue;
+}
+.row_posters{
+    display: flex;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    padding: 20px;
+}
+.row_poster{
+    max-height: 100px;
+    width: 100%;
+    margin-right: 10px;
+    object-fit:contain;
+    transition:transform 450ms;
+}
+.images:hover{
+    transform: scale(1.5);
+   cursor: pointer;
+}
+.header{
+    height: 7rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+
+    
+   
+}
+.head{
+text-decoration: none;
+}
+.main{
+    width:70%;
+    display: flex;
+    justify-self: center;
+    justify-items: center;
+    margin-top: 2rem;
+    justify-content: space-between;
+  
+   
+   
+   
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.header>h1{
+    color:red;
+    font-size:3rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.header>main{
+    margin-right: 4rem;
+}
+.row{
+    margin-left: 20px;
+    margin-top: 2rem;
+}
+.button{
+    cursor:pointer;
+    border-color: black;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btn{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    width:7rem;
+    height:2rem;
+    background-color: rgba(250, 33, 33, 0.813);
+    color: aliceblue;
+    text-align: center;
+    border-radius: 3px;
+    justify-content: center;
+   
+    align-items: center;
+    
+}
+.search{
+    font-size:25px;
+}
+/* .caraousal{
+ 
+    
+    width:100%;
+    padding:10px;
+    margin:10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+  
+    
+
+} */
+.Caraousal{
+
+    display: flex;
+    height:12rem;
+    width:100%;
+    margin: 20px;
+    transition:1s;
+    justify-content: center;
+    flex-direction: row;
+    box-shadow:0 0 20px 2px rgba(253, 253, 253, 0.1);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-left: auto;
+    margin-right:auto;
+   
 }
 
-.App-link {
-  color: #61dafb;
+.image{
+    display:block;
+    width:auto;
+    border-radius:5px;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    height:auto;
+    transition: 450ms;
+    margin: 5px;
+}
+.image:hover{
+    transform: scale(1.2);
+}
+.footer{
+    width:100%;
+    height:330px;
+    background-color: black;
+    margin-top: 0px;
+    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pre-btn{
+font-size: 80px;
+ left: 0px;
+ cursor: pointer;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
 }
+.next-btn{
+cursor: pointer; 
+font-size: 80px;
+right:0px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  
+}
+.line{
+    margin-top: 150px;
+}
+.line2{
+    margin-top: 20px;
+    
+
+}
+.icons{
+    margin:40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:20%;
+    height:20%;
+    margin-top: 80px;
+    
+}
+.fo-logo{
+    margin:10px;
+    font-size: 75px;
+    
+}
+.sociallinks{
+    
+ margin :11px;
+ font-size: 30px;
+ margin-top: 10px;
+ cursor: pointer;
+ transition: .5s;
+}
+.sociallinks:hover{
+    transform: scale(1.5);
+}
+.social{
+    display: flex;
+    
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+}
+.explore{
+    
+    margin-left: 50px;
+    margin-top: 90px;
+   
+    
+}
+.explore>h3{
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.explore>p{
+
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 6px;
+}
+.brands{
+   display: flex;
+   justify-content: space-between;
+    size: 100px;
+    margin: 30px;
+    margin-bottom: 40px;
+   
+}
+.brand{
+    font-size: 60px;
+    filter:grayscale(150%);
+    
+
+}
+.poster{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+
+
+/* .box{
+    width: 40px;
+    height: 50px;
+    background-color: brown;
+    justify-content: center;
+} */
+.searchDiv{
+    width: 100%;
+    height: 70vh;
+    
+}
+.form{
+    margin-top: 8rem;
+    margin-left: 100px;
+}
+.searchbar{
+    width: 70%;
+    height: 2.8rem;
+    font-size: larger;
+    background-color: rgb(240, 239, 239);
+    color: black;
+    
+}
+.searchpostre{
+    margin: 70px;
+    display: flex;
+   
+}
+.searchpostre img{
+    margin: 10px;
+    height: 13rem;
+    width: auto;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: 480ms;
+  
+
+}
+.searchpostre img:hover{
+    transform: scale(1.3);
+}
+.searchpostre p{
+    margin-top: 10%;
+    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+}
+.loginDiv{
+    margin-top: 9rem;
+    margin-left: 350px;
+    height: 20rem;
+    width: 40%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px 0px 50px 0px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   background-color: rgb(254, 254, 254);
+   display: flex;
+   justify-content: center;
+  
+}
+.loginDiv h1{
+    margin-left: 200px;
+    background-color: rgb(255, 252, 252);
+    color: brown;
+    margin-top: 0px;
+    width: 100px;
+   
+}
+.loginForm{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    margin-left: 10%;
+   
+}
+.input{
+    width: auto;
+    background-color: rgb(195, 211, 222);
+    margin: 10px;
+    color: black;
+    height: 3rem;
+    margin-top: 10px;
+    font-size: larger;
+    align-items: center;
+    margin-left: 50px;
+    border-radius: 10px;
+   
+   
+    
+}
+.videos{
+    margin-top:8rem
+}
+.loginForm button{
+    width: 100px;
+    height: 50px;
+    color: rgb(247, 238, 238);
+    font-size: larger;
+    border-radius: 10px;
+    margin-left: 140px;
+    margin-top: 10px;
+    cursor:pointer;
+    text-decoration: none;
+}
+

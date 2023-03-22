@@ -1,0 +1,190 @@
+ const data={
+    Trending:
+    [{
+      id:1,
+      name:"karagar",
+      link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2023/01/20/1674212648404_1098x1626_karagar_2_3x4Images.jpg?impolicy=resize&w=300&h=444"
+    },
+    {id:2,
+      name:"cheeni",
+      link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2023/01/31/1675168296068_cheeni_1098x1626_3x4Images.jpg?impolicy=resize&w=300&h=444"
+    },
+    {id:3,
+      name:"hostel days",
+      link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2023/01/18/1674016160294_hostel_days_1098x1626_3x4Images.jpg?impolicy=resize&w=300&h=444"
+    },
+    {id:4,
+      name:"Manojder Adbhut Bari",
+      link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2023/01/12/1673521427361_manojderadbhutbari_3x4Images.jpg?impolicy=resize&w=300&h=444"
+    },
+    {id:5,
+      name:"Cholo Paltai",
+      link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/07/7/1657170670237_cholo_paltai_1098x1626_3x4Images.jpg?impolicy=resize&w=300&h=444"
+    },
+    {id:6,
+      name:"Byadh",
+      link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/12/22/1671732666001_byadh_1098x1626_fef_3x4Images.jpg?impolicy=resize&w=300&h=444"
+    },
+    {id:7,
+      name:"Ballavpurer Rupkotha",
+      link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2023/01/17/1673951399134_bprk_1098x1626_3x4Images.jpg?impolicy=resize&w=300&h=444"
+    },
+    {id:8,
+      name:"Shobdo Jobdo",
+      link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/11/9/1668000281030_shobdo_jobdo_1098x1626_3x4Images.jpg?impolicy=resize&w=300&h=444"
+    },
+    {id:9,
+      name:"Phoring",
+      link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2023/01/13/1673595460171_phoring_1098x16261_3x4Images.jpg?impolicy=resize&w=300&h=444"
+    },
+    {id:10,
+      name:"Byomkesh",
+      link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/12/17/1671270597887_byomkesh_1098x1626_3x4Images.jpg?impolicy=resize&w=300&h=444"
+    },
+    {id:11,
+      name:"Tasher Ghar",
+      link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/06/28/1656392566056_tasherghawr_1098x1626_3x4Images.jpg?impolicy=resize&w=300&h=444"
+    },
+    {id:12,
+      name:"Durgesh Garer Guptodhan",
+      link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/11/25/1669378059557_durgeshgarerguptadhon1098x1626_3x4Images.jpg?impolicy=resize&w=300&h=444"
+    }
+      ],
+
+Popular:
+ [{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2021/09/14/1631613194976_charitraheen3_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/07/22/1658490488190_paanchphoron_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2020/11/16/1605524179429_dtpcombined_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2023/01/19/1674135443884_indu2_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/06/28/1656392893271_sjhp1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/05/7f/3af0a52348eabd3df0c631a44cf9/1573797458198_oddbhuture_jumbotron_2resized_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/28/70/dab3ef774301b2e93313609a3c55/1570768895610_cartoonwhitelogo_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2020/08/14/1597408709570_1280x7202_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2020/05/11/1589199763675_holyfaak_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2021/10/5/1633460458597_tst21280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/08/27/1661583495865_montupilot_1280x720_2_16x9Images.webp?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/08/17/1660740319064_hello_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"}
+  ],
+
+  Thriller:
+ [{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2021/09/14/1631608847344_rekka_1280x7201_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/11/11/1668148489363_byadh_1280x7201_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/07/30/1659173530386_mahabharatmurders_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/11/24/1669313266642_tbs_1280x720_1_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/07/4/1656933229038_mith_1280x720_fef_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/04/23/1650730397956_tiktiki_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/12/17/1671270600254_byomkesh_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/11/18/1668749705702_1280x720_rrs_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2020/12/7/1607327912034_stonemanjumbo11_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/11/16/1668591203318_bpg_1280x720_2_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/11/5/1667639113443_hrm_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2020/08/20/1597923610013_dhanbadblues31280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/58/da/92a9a32d4d1bbabcf58d67cbca0d/1579151295830_boumadetectiveblacklogo_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/3a/eb/89293f6a4bd5af68977053b5ae14/1570769170053_chupkotha2whitelogo_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/02/14/1644843840297_taranathtantrik_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/09/7/1662555782069_asteladies_1280x7202_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/07/4/1656935018520_paap_1280x720_fef_16x9Images.jpg?impolicy=resize&w=500&h=281.25"}
+  ],
+
+  Horror:
+ [{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/03/7/1646655953549_rawktobilap_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/02/14/1644843840297_taranathtantrik_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/05/7f/3af0a52348eabd3df0c631a44cf9/1573797458198_oddbhuture_jumbotron_2resized_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/3a/eb/89293f6a4bd5af68977053b5ae14/1570769170053_chupkotha2whitelogo_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2020/08/21/1597992500056_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/28/70/dab3ef774301b2e93313609a3c55/1570768895610_cartoonwhitelogo_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/ec/dc/e987d5364dbf9a6b6d1a37de5b01/1570774050814_7paranoia_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/b4/c5/fd04252244b4a921434ea8e956f5/1551417447813_bhuture_16x9Images.jpg?impolicy=resize&w=500&h=281.25"}
+   
+  ],
+
+  Drama:
+ [{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/12/14/1670994957535_hd_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2020/05/11/1589199763675_holyfaak_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2023/01/13/1673590016132_eken_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2020/05/28/1590695555206_jumbotron_3_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2020/08/21/1597992500056_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/03/3/1646302141027_bkp_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2020/12/7/1607327408109_mismatch_3_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2020/11/16/1605524179429_dtpcombined_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/c2/27/d5f3b62b4a29add0ce5b6b73d6e7/1579151346697_gariahaterganglordsblacklogo_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/e0/2d/94e58a5145db8972e849898268d5/1570774007648_6hojoborolo_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/ff/d0/112f3fcd4d3fb1ddb51628707fcb/1551423665090_magichoyejak_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/af/d6/62774fae47d99b4ddaebddc0acf7/1570773797527_1standup_16x9Images.jpg?impolicy=resize&w=500&h=281.25"}
+   
+  ],
+
+  Comedy:
+ [{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/10/19/1666180183282_mandaar1280x720_new_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/12/26/1672060547423_1645442714414_uttoron_jumbo_1280x720_16x9images_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/11/11/1668148489363_byadh_1280x7201_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/12/12/1670838834136_sb_1280x720_2_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/02/14/1644843840297_taranathtantrik_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/07/4/1656933229038_mith_1280x720_fef_16x9Images.jpg?impolicy=resize&w=500&h=281.25"}
+    
+  ],
+  MostWatched:
+  [{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2023/01/19/1674135443884_indu2_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/05/14/1652514614239_sabrina1280x7202_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2021/04/29/1619711397405_nokolheere1280x720option4_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/07/4/1656935018520_paap_1280x720_fef_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/10/19/1666166072757_sampurna_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/06/28/1656392893271_sjhp1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/10/28/1666956318261_bodhon_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/12/26/1672060547423_1645442714414_uttoron_jumbo_1280x720_16x9images_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2021/09/14/1631613194976_charitraheen3_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/58/da/92a9a32d4d1bbabcf58d67cbca0d/1579151295830_boumadetectiveblacklogo_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/08/17/1660740319064_hello_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/28/70/dab3ef774301b2e93313609a3c55/1570768895610_cartoonwhitelogo_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/03/9/1646809404828_manbhanjan_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/09/7/1662555782069_asteladies_1280x7202_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2020/08/21/1597992500056_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"}
+  ],
+  WomenCentric:
+  [{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/07/4/1656935419625_tansener_tanpura_1280x720_fef_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/06/28/1656392893271_sjhp1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/09/26/1664182033453_rudrabina_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/11/25/1669399754056_srikanto_1280x7201_16x9Images.jpg?impolicy=resize&w=500&h=281.25"
+    
+  }],
+  Upcoming:
+ [{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/12/17/1671270600254_byomkesh_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/10/19/1666180043199_gora_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/08/26/1661520984630_fg_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2023/01/20/1674212870967_kaiser_1280x720_2_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2021/03/12/1615516346938_1280x720_damayanti_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2021/04/29/1619711397405_nokolheere1280x720option4_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2023/01/13/1673590016132_eken_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/58/da/92a9a32d4d1bbabcf58d67cbca0d/1579151295830_boumadetectiveblacklogo_16x9Images.jpg?impolicy=resize&w=500&h=281.25"
+  }],
+  Latest:
+  [{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/12/12/1670838834136_sb_1280x720_2_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/11/28/1669610248544_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2021/04/9/1617955957434_dhakametro_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/07/22/1658490488190_paanchphoron_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/08/27/1661583495865_montupilot_1280x720_2_16x9Images.webp?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/10/19/1666180183282_mandaar1280x720_new_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/08/17/1660740319064_hello_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/08/17/1660740319064_hello_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/10/19/1666166072757_sampurna_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"
+  }],
+  MostReviewed:
+  [{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/03/23/1648018128563_mukkhomontri_1280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2021/10/5/1633460458597_tst21280x720_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/e0/2d/94e58a5145db8972e849898268d5/1570774007648_6hojoborolo_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/6d/ac/bcc527a144619fee0378375a22ce/1570175287356_facesofjumbo_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/ff/d0/112f3fcd4d3fb1ddb51628707fcb/1551423665090_magichoyejak_16x9Images.jpg?impolicy=resize&w=500&h=281.25"},{
+    link:"https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/af/d6/62774fae47d99b4ddaebddc0acf7/1570773797527_1standup_16x9Images.jpg?impolicy=resize&w=500&h=281.25"
+  }]
+ }
+ export default data;
